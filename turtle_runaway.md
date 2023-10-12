@@ -2,9 +2,7 @@
 Turtle Runaway Game
 
 🔵Runner(Blue Turtle) : 임의의 방향으로 계속해서 빠르게 이동
-
 🔴Chaser(Red Turtle) : 키보드의 화살표 키로 조작
-
 🟢Hunter(Green Turtle) : Chaser을 향해 느리게 이동
 
 Runaway 클래스:

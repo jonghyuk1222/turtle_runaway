@@ -7,10 +7,15 @@ Turtle Runaway Game
 
 Runaway 클래스:
   __init__ : Turtle, time, score 등의 초기 설정
+  
   is_catch, being_catched : chaser가 runner의 일정 범위 내에 있는지, hunter가 chaser의 일정 범위 내에 있는지 확인
+  
   start : 게임이 시작될 때 거북이들의 위치, 시간 시작 등 설정
+  
   catch, catched : chaser가 runner를 잡았을 때 1점씩 추가, hunter가 chaser을 잡았을 때 1점씩 감소
+  
   step : 각 Turtle에게 움직임을 적용, Turtle이 화면 밖을 벗어나지 않게 움직임의 범위를 제한, 경과한 시간을 측정하고 표시
+  
   game_over : 정해진 시간이 다 되었을때 시간을 멈추고 최종 점수와 결과를 출력
 
 ManualMover 클래스 : 화살표 버튼을 눌렀을 때 일정 방향만큼 고개를 돌리거나 움직이도록 함
